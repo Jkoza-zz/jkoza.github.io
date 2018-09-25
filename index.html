@@ -64,7 +64,6 @@
                 <div class="container">
                     <ul id="page-nav" class="nav page-nav list-inline">
                         <li><a class="scrollto" href="#experiences-section">Experience</a></li>
-                        <li><a class="scrollto" href="#education-section">Education</a></li>
                         <li><a class="scrollto" href="#skills-section">Skills</a></li>
                         <li><a class="scrollto" href="#portfolio-section">Portfolio</a></li>
                         <li><a class="scrollto" href="#contact-section">Contact</a></li>
@@ -79,6 +78,46 @@
         <section id="experiences-section" class="experiences-section section">
             <h2 class="section-title">Experience</h2>
             <div class="timeline">
+            	<div class="item">
+                    <div class="work-place">
+                        <h3 class="place">Minted</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Software Engineering Intern</div>
+                        <div class="time">Summer 2018</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>Member of the e-commerce team</p> 
+                        <ul>
+                            <li>Redesigned an existing GraphQL implementation to be built on ElasticSearch to support more complicated queries and
+							increase speed as much as 20%.</li>
+                            <li>Participated in the full-time on-call schedule, fixing live issues on production as they happened.
+							</li>
+                            <li>Developed a new API endpoint reducing the speed to fetch product data by 30%.</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+            	<div class="item">
+                    <div class="work-place">
+                        <h3 class="place">Globe and Mail</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Toronto</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Front End Developer Intern</div>
+                        <div class="time">Winter 2017</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>Member of the Data Analytics team.</p> 
+                        <ul>
+                            <li>Developed a social media web scraper in Python and stored results in a MongoDB database.</li>
+                            <li>Led the design of a Spring Boot Java API that returns social media data fetched by the scraper.</li>
+                            <li>Designed an admin dashboard to manage users and their permissions using React/Redux, MongoDB and a Spring Boot
+							Java API.
+							</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">IBM</h3>
@@ -86,16 +125,16 @@
                     </div>
                     <div class="job-meta">
                         <div class="title">Software Developer</div>
-                        <div class="time">Jan 2017 - Apr 2017</div>
+                        <div class="time">Winter 2017</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
                         <p>Member of the Watson Analytics team, IBM Watson's business analytics solution.</p> 
                         <ul>
-                            <li>Developed a new system for loading icons using icon fonts greatly reducing HTTP requests and average load times by
-                            excess of 30%.</li>
-                            <li>Designed an API to recommend different ways to visualize data based on data provided by the user using Watson
-                            Machine Learning.</li>
-                            <li>Worked with a team to refactor legacy code to an ES6 standard to be used in the convergence of two software projects.</li>
+                            <li>Developed a Node.js API that uses the internal Watson Machine Learning API to fetch insights about data-sets provided.</li>
+                            <li>Implemented a new system for loading icons using icon fonts to reduce the number of HTTP requests, resulting in the
+								reduction of initial load times by as much as 30%.
+							</li>
+                            <li>Re-factored legacy JavaScript modules to meet the ES6 standard</li>
                         </ul>
                     </div><!--//job-desc-->
                 </div><!--//item-->
@@ -107,15 +146,14 @@
                     </div>
                     <div class="job-meta">
                         <div class="title">Software Engineering</div>
-                        <div class="time">Apr 2016 - Sept 2016</div>
+                        <div class="time">Summer 2016</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
                         <p>Member of the software developement team, which developed display visualization tools for the electrical engineers.</p> 
                         <ul>
-                            <li>Developed an OpenGL graphing tool that allows users to visualize and dynamically manipulate display pixel data.</li>
-                            <li>Reworked several legacy OpenGL modules and GLSL shaders to modern OpenGL specifications.</li>
-                            <li>Led development of a set of C++ drivers to automate lab equipment, coupled with an application that sequences commands on the equipment, greatly improving lab work flow.</li>
-                            <li>Collaborated with a team to develop an application to manage software builds and NuGet packages. Additionally, improved the existing build deployment and regression testing infrastructure by using Jenkins.</li>
+                            <li> Developed an application in C++ and OpenGL that scans the pixels of a display and graphs relations and trends in pixel data to be used by the electrical engineering team.</li>
+                            <li>Optimized several legacy OpenGL modules and re-factored GLSL shaders to modern OpenGL specifications.</li>
+                            <li>Led development of a set of C++ drivers to automate the electrical engineering lab’s power supplies, in addition to an auxiliary C# .Net application that allows users to sequence commands and leave equipment unattended.</li>
                         </ul>
                     </div><!--//job-desc-->
                 </div><!--//item-->
@@ -132,9 +170,7 @@
                         <p>I Have participated in the following:</p> 
                         <ul>
                             <li>Hack Princeton (Princeton)</li>
-                            <li>TreeHacks (Stanford)</li>
                             <li>HackTech (Caltech)</li>
-                            <li>HackMIT (MIT)</li>
                             <li>MLH Prime (Bell Labs)</li>
                             <li>Hack The North (University of Waterloo)</li>
                             <li>Deloitte Tech Exchange (University of Waterloo)</li>
@@ -148,113 +184,32 @@
             
         </section><!--//section-->
         
-        <section id="education-section" class="education-section section">
-            <h2 class="section-title">Education</h2>
-            <div class="row">
-                <div class="item col-xs-12 col-sm-4">
-                    <div class="item-inner">
-                        <h3 class="degree">B.A.Sc Computer Engineering</h3>
-                        <div class="education-body">
-                            University of Waterloo
-                        </div><!--//education-body-->
-                        <div class="time">2015 - 2020</div>
-                        <div class="desc">
-                            <p> </p>
-                            <ul>
-                                <li>Engineering Entrance Scholarship</li>
-                                <li>President's Scholarship</li>
-                            </ul>
-                        </div>
-                    </div><!--//item-inner-->
-                </div><!--//item-->
-                <div class="item col-xs-12 col-sm-4">
-                    <div class="item-inner">
-                        <h3 class="degree">Waterloo Hybrid</h3>
-                        <div class="education-body">
-                            Embedded Software Team
-                        </div><!--//education-body-->
-                        <div class="time">2015 - 2016</div>
-                        <div class="desc">
-                            <p>Learned Arduino C programming</p>
-                        </div>
-                    </div><!--//item-inner-->
-                </div><!--//item-->
-                <div class="item col-xs-12 col-sm-4">
-                    <div class="item-inner">
-                        <h3 class="degree">Waterloo Robotics Team</h3>
-                        <div class="education-body">
-                            Computer Vision Team
-                        </div><!--//education-body-->
-                        <div class="time">2015 - 2016</div>
-                        <div class="desc">
-                            <p>Worked in a team to develop an algorithm to detect changes in traffic lights and obstacles using OpenCL and C++.</p>
-                        </div>
-                    </div><!--//item-inner-->
-                </div><!--//item-->
-            </div><!--//row-->
-        </section><!--//section-->
-        
-        
         <section id="skills-section" class="skills-section section text-center">
             <h2 class="section-title">Professional Skills</h2>
-            <div class="top-skills">
-                <h3 class="subtitle">Top Skills</h3>
-                <div class="row">
-                    <div class="item col-xs-12 col-sm-4">
-                        <div class="item-inner">
-                            <div class="chart-easy-pie text-center">
-                                <div class="chart-theme-1 chart" data-percent="90"><span>90</span>%</div>
-                            </div>
-                            <h4 class="skill-name">Web Developement</h4>
-                            <div class="desc">
-                                Developed mainly in javascript at IBM, and have been exposed to fullstack developement through projects.
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="item col-xs-12 col-sm-4">
-                        <div class="item-inner">
-                            <div class="chart-easy-pie text-center">
-                                <div class="chart-theme-1 chart" data-percent="95"><span>95</span>%</div>
-                            </div>
-                            <h4 class="skill-name">Low Level Development</h4>
-                            <div class="desc">
-                                Gained exposure to large C/C++ in previous coops and coursework. Morevover, I have been exposed to embedded development through student teams, coop, and coursework. 
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="item col-xs-12 col-sm-4">
-                        <div class="item-inner">
-                            <div class="chart-easy-pie text-center">
-                                <div class="chart-theme-1 chart" data-percent="85"><span>85</span>%</div>
-                            </div>
-                            <h4 class="skill-name">Graphics</h4>
-                            <div class="desc">
-                                Developed several OpenGL programs during my time at Ignis. Also gained exposure to DirectX.
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                </div><!--//row-->
-            </div><!--//top-skills-->
             
-            <div class="other-skills">
-                <h3 class="subtitle">Other Skills</h3>
+            <div class="skills">
                 <div class="misc-skills">
                     <span class="skill-tag">C/C++</span>
                     <span class="skill-tag">C#</span>
                     <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">HTML/CSS/SASS</span>
-                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Bash</span>
                     <br>
                     <span class="skill-tag">Node.js</span>
                     <span class="skill-tag">Express</span>
                     <span class="skill-tag">OpenGL</span>
+                    <span class="skill-tag">React/Redux</span>
+                    <span class="skill-tag">D3.js</span>
                     <span class="skill-tag">jQuery</span>
                     <span class="skill-tag">Webpack</span>
                     <br>
                     <span class="skill-tag">Grunt</span>
                     <span class="skill-tag">Docker</span>
                     <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">MySQL</span>
                     <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">ElasticSearch</span>
                     <span class="skill-tag">Jenkins</span>
                     <span class="skill-tag">Git/SVN</span>
                     <span class="skill-tag">Linux</span>
@@ -262,7 +217,7 @@
             </div><!--//other-skills-->
             
         </section><!--//skills-section-->
-        
+     
         <section id="portfolio-section" class="portfolio-section section">
             <h2 class="section-title">Portfolio</h2>
             <!-- <ul id="filters" class="filters clearfix">
@@ -358,14 +313,8 @@
             <div class="intro">
                 <img class="profile-image" src="assets/images/profile-image.gif" alt="">
                 <div class="dialog">
-                    <p>Computer Engineering student at the University of Waterloo. Interested mainly in software development, currently seeking fall internship opportunities.</p>
-                    <p><strong>Experience with:</strong></p>
-                    <ul class="list-unstyled service-list">
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Web Development: Javascript, React, Node.js HTML/CSS, etc.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Low level Development: C/C++ experience.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Graphics: OpenGL experience with exposure to DirectX.</li>
-                    </ul>
-                    <p>Drop me a line at <a href="mailto:someone@example.com">jlkoza@edu.uwaterloo.ca</a> or call me at <a href="tel:01234567890">519 400 7431</a></p>
+                    <p>Computer Engineering student at the University of Waterloo. Interested mainly in software development, currently seeking winter 2019 internship opportunities.</p>
+                    <p>Email me at<a href="mailto:someone@example.com">jlkoza@edu.uwaterloo.ca</a> or call me at <a href="tel:01234567890">519 400 7431</a></p>
                     <ul class="social list-inline">
                         <li><a href="https://www.linkedin.com/in/joshkoza/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         <li><a href="https://github.com/jkoza"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
